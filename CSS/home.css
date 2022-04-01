@@ -1,62 +1,44 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.header{
+/* Header */
+
+.header {
     margin: 64px 164px 54px 165px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1111px;
 }
-.menu{
-    color: #33323D;
+.menu {
     margin-left: 42px;
 }
-#home.menu{
-    color: #5FB4A2;
-}
-a{
-    text-decoration: none;
-    font-family: 'Public Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-.heroSection{
+
+/* Hero Section */
+
+.heroSection {
     width: 1110px;
     height: 600px;
-    background: url("hero_section.svg");
+    background: url("/Home Image/2_hero_section.svg");
     display: flex;
     align-items: flex-end;
     margin-bottom: 149px;
 }
-.heroText{
-    font-family: 'Ibarra Real Nova';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 50px;
-    letter-spacing: -0.446429px;
-    color: #33323D;
-    width: 390px;
-    height: 200px;
-    padding: 56px 28px 53px 27px;
-}
-.caixinhaDoHero{
+
+.caixinhaDoHero {
     width: 445px;
     height: 357px;
     background: #FAFAFA;
 }
-.caixinhaSobremim{
+
+.heroText {
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    width: 390px;
+    height: 200px;
+    padding: 56px 28px 53px 27px;
+}
+
+.buttonDoHero {
+    /* caixa do botão e a seta */
     background: #203A4C;
     width: 200px;
     height: 48px;
@@ -64,24 +46,31 @@ a{
     flex-direction: row;
     align-items: center;
 }
-.buttonSobremim{
+
+.buttonHero {
+    /* botão só do link */
     text-align: center;
     color: #FFFFFF;
     background: #203A4C;
     padding: 0px 33px;
 }
-.sobreSection{
+
+/* SOBRE MIM SECTION */
+
+.sobreSection {
     display: flex;
     justify-content: space-between;
     width: 1110px;
     height: 601px;
     margin-bottom: 150px;
 }
-.textSobre{
+
+.caixaDoTextDoSobre {
     width: 430px;
     height: 502px;
 }
-.linha{
+
+.linha {
     width: 430px;
     height: 1px;
     background: #33323D;
@@ -89,37 +78,35 @@ a{
     opacity: 0.15;
     margin-bottom: 51px;
 }
-h1{
+
+.textDoSobre {
     height: 42px;
-    font-family: 'Ibarra Real Nova';
-    font-style: normal;
-    font-weight: 700;
     font-size: 40px;
     line-height: 42px;
     letter-spacing: -0.357143px;
     color: #33323D;
     margin-bottom: 28px;
 }
-.descricao{
+
+.descricao {
     height: 360px;
-    font-family: 'Public Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 30px;
-    color: #33323D;
     mix-blend-mode: normal;
     opacity: 0.8;
     margin-bottom: 24px;
 }
-.buttonPortifolio{
+
+.buttonPortifolio {
     color: #33323D;
     padding: 17px 28px 17px 28px;
     border: 1px solid #33323D;
     display: inline-block;
     margin: 0px 0px 46px 113px;
 }
-.contatoSection{
+
+/* CONTATO SECTION */
+
+.contatoSection {
     width: 1110px;
     height: 84px;
     display: flex;
@@ -127,19 +114,17 @@ h1{
     align-items: center;
     margin-bottom: 150px;
 }
-.p1{
+
+.textDoContato {
     height: 84px;
-    font-family: 'Ibarra Real Nova';
-    font-style: normal;
-    font-weight: 700;
     font-size: 40px;
     line-height: 42px;
     letter-spacing: -0.357143px;
-    color: #33323D;
     width: 367px;
     height: 84px;
 }
-.buttonContato{
+
+.buttonContato {
     color: #33323D;
     border: 1px solid #33323D;
     box-sizing: border-box;
@@ -147,24 +132,26 @@ h1{
     display: inline-block;
     padding: 17.11px 50.04px;
 }
-.footer{
+
+/* FOOTER SECTION */
+
+.footer {
     width: 1440px;
     height: 80px;
     background: #33323D;
     display: flex;
     align-items: center;
 }
-.menuFooter{
+
+.menuFooter {
     width: 309px;
     height: 14px;
     display: flex;
     justify-content: space-between;
     margin-right: 588px;
 }
-.menuF{
-    color: #FFFFFF;
-}
-.imgFooter{
+
+.imgFooter {
     margin-left: 165px;
     margin-right: 48px;
 }

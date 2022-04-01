@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Fontes */
+
+.ibarraReal{
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    color: #33323D;
+}
+
+.publicSans{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #33323D;
+}
+
+/* Colors */
+
+.ciano{
+    color: #5FB4A2;
+}
+.azulCinza{
+    color: #33323D;
+}
+.azulEscuro{
+    color: #203A4C;
+}
+.cinzaClaro{
+    color: #FAFAFA;
+}
+.cinza{
+    color: #EAEAEB;
+}
+.branco{
+    color: #FFFFFF;
+}

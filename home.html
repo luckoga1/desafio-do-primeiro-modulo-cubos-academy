@@ -8,36 +8,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Public+Sans&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="/CSS/global.css">
+    <link rel="stylesheet" href="/CSS/home.css">
     <title>Home</title>
 </head>
 
 <body>
     <div class="container">
+        <!-- HEADER -->
         <div class="header">
-            <img src="icone_setas.svg">
+            <img src="/Home Image/1_icone_setas_header.svg">
             <div>
-                <a href="#" id="home" class="menu">Home</a>
-                <a href="#" class="menu">Portfólio</a>
-                <a href="#" class="menu">Contato</a>
+                <a href="#" class="menu ciano">Home</a>
+                <a href="#" class="menu azulCinza">Portfólio</a>
+                <a href="#" class="menu azulCinza">Contato</a>
             </div>
         </div>
+
+        <!-- HERO SECTION -->
         <div class="heroSection">
             <div class="caixinhaDoHero">
-                <p class="heroText">Olá, me chamo Alex Spencer e eu amo construir websites lindos</p>
-                <div class="caixinhaSobremim">
-                    <img src="icone_button_sobremim.svg">
-                    <a class="buttonSobremim" href="#">SOBRE MIM</a>
+                <p class="heroText ibarraReal">Olá, me chamo Alex Spencer e eu amo construir websites lindos</p>
+                <div class="buttonDoHero">
+                    <img src="/Home Image/3_icone_button_heroSection.svg">
+                    <a href="#SobreMim" class="buttonHero" >SOBRE MIM</a>
                 </div>
             </div>
         </div>
-        <div class="sobreSection">
-            <img src="img_sobremim.svg">
-            <div class="textSobre">
+        
+        <!-- SOBRE MIM SECTION -->
+        <div id="SobreMim" class="sobreSection" >
+            <img src="/Home Image/4_img_sobremim.svg">
+            <div class="caixaDoTextDoSobre">
                 <div class="linha"></div>
 
-                <h1>Sobre mim</h1>
-                <p class="descricao">Sou um desenvolvedor front-end júnior procurando por uma oportunidade. Eu foco em
+                <h1 class="ibarraReal textDoSobre">Sobre mim</h1>
+                <p class="descricao publicSans">Sou um desenvolvedor front-end júnior procurando por uma oportunidade. Eu foco em
                     escrever HTML
                     acessível, usando práticas modernas de CSS e escrevendo um JavaScript limpo. Quando estou escrevendo
                     código JavaScript, na maioria das vezes estou usando React, mas posso me adapta para qualquer
@@ -50,19 +56,22 @@
                 <div class="linha"></div>
             </div>
         </div>
+
+        <!-- CONTATO SECTION -->
         <div class="contatoSection">
-            <p class="p1">Interessado em fazer projetos comigo?</p>
+            <p class="textDoContato ibarraReal">Interessado em fazer projetos comigo?</p>
             <a class="buttonContato" href="#">CONTATO</a>
         </div>
 
+        <!-- FOOTER SECTION -->
         <div class="footer">
-            <img class="imgFooter" src="icone_seta_footer.svg">
+            <img class="imgFooter" src="/Home Image/5_icone_seta_footer.svg">
             <div class="menuFooter">
-                <a href="#" class="menuF">Home</a>
-                <a href="#" class="menuF">Portfólio</a>
-                <a href="#" class="menuF">Contato</a>
+                <a href="#" class="branco">Home</a>
+                <a href="#" class="branco">Portfólio</a>
+                <a href="#" class="branco">Contato</a>
             </div>
-            <img src="icones_de_redes.svg">
+            <img src="/Home Image/6_icones_de_redes_sociais.svg">
         </div>
 
     </div>
