@@ -5,7 +5,7 @@ No entanto, a avaliação da stack back-end foi realizada na plataforma HackerRa
 Quanto ao Front-end, foi proposto um design na plataforma Figma para o desenvolvimento dos conhecimentos.
 As competências avaliadas foram:
 
-#Back-End
+# Back-End
 - Variáveis
 - Condicionais 
 - Arrays e Loops
@@ -14,7 +14,7 @@ As competências avaliadas foram:
 - Métodos de Strings
 - Métodos de Arrays
 
-#Front-End
+# Front-End
 - Introdução ao Front-End e ao CSS
 - Conhecendo mais propriedades
 - Layouts
